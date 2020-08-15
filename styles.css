@@ -1,0 +1,75 @@
+/* whole page */
+
+body {
+  background-color: lightblue;
+  color: rgb(3, 44, 3);
+  margin: 0px auto;
+  width: 960px;
+}
+
+/* header */
+
+header {
+  margin: 0px auto;
+  width: 960px;
+  height: 200px;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+header > img {
+  height: 150px;
+  margin: 10px;
+  float: left;
+}
+
+header > nav > ul > li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+
+  background-color:rgb(243, 243, 10);
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+
+header > nav {
+  float: right;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* main */
+
+#hero {
+  width: 960px;
+}
+
+#burger {
+  float: left;
+  display: block;
+  width: 40%;
+}
+
+main p {
+  float: right;
+  display: block;
+  background-color: blanchedalmond;
+  width: 60%;
+}
+
+/* footer */
+
+footer {
+  clear: both;
+  text-align: right;
+}
